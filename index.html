@@ -1,16 +1,20 @@
+<!--Add basic HTML document structure and metadata-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Link external CSS and HTML-->
   <title>Akan Name Generator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Add main container with heading and introductory paragraph-->
   <main class="container">
     <h1>Akan Name Generator</h1>
     <p>Enter your birth date and gender to discover your Ghanaian Akan name based on the day you were born.</p>
 
+    <!--Add form with input fields for day, month, and year of birth-->
     <form id="akanForm">
       <div class="form-group">
         <label for="day">Day of Birth (1–31):</label>
@@ -27,6 +31,7 @@
         <input type="number" id="year" name="year" required>
       </div>
 
+      <!--Add Gender selection radio buttons and submit button-->
       <div class="form-group">
         <p>Select Gender:</p>
         <label><input type="radio" name="gender" value="male" required> Male</label>
@@ -41,6 +46,9 @@
     </section>
   </main>
 
+  <!--Link external JS and HTML-->
+
   <script src="script.js"></script>
 </body>
 </html>
+<!--Ensure proper semantic HTML and accessibility in form structure-->
