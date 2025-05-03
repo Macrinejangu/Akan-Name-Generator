@@ -27,8 +27,8 @@ Behavior-Driven Development (BDD)
 
 Technologies Used
 - HTML
-- CSS3
-- JavaScript (ES6)
+- CSS
+- JavaScript
 - Git & GitHub
 - GitHub Pages (for deployment)
 
