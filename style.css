@@ -1,3 +1,4 @@
+/*Add base body styles and page background gradient*/
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to right, #ffe3e3, #fef6e4);
@@ -20,6 +21,7 @@ body {
     text-align: center;
   }
   
+  /*Add styles for heading and description text*/
   h1 {
     color: #d6336c;
     font-size: 2rem;
@@ -42,7 +44,8 @@ body {
   .form-group {
     text-align: left;
   }
-  
+  /*Style form inputs and labels for consistent spacing and appearance*/
+
   label {
     font-weight: 600;
     margin-bottom: 0.4rem;
@@ -63,7 +66,7 @@ body {
     width: auto;
     margin-right: 0.5rem;
   }
-  
+  /*Add styles for radio buttons and their labels*/
   button {
     padding: 0.8rem;
     background-color: #ff6b6b;
@@ -79,6 +82,7 @@ body {
     background-color: #fa5252;
   }
   
+  /*Add styles for the result section*/
   .result {
     margin-top: 2rem;
     font-size: 1.4rem;
