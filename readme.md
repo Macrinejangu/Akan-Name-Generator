@@ -14,7 +14,7 @@ Aspiring software engineer | Digital marketer | Creative technologist
 1. Clone the repository:
    ```bash
    git clone https://github.com/Macrinejangu/Akan-Name-Generator
-
+   
 2. Navigate into the project folder: 		
  cd akan-name-generator
 
