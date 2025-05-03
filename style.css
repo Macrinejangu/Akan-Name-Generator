@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffe3e3, #fef6e4);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 2rem 2.5rem;
+    margin-top: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #d6336c;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    color: #6c757d;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    display: block;
+    color: #495057;
+  }
+  
+  input[type="number"],
+  input[type="radio"] {
+    padding: 0.6rem;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  input[type="radio"] {
+    width: auto;
+    margin-right: 0.5rem;
+  }
+  
+  button {
+    padding: 0.8rem;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fa5252;
+  }
+  
+  .result {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: #212529;
+  }
+  
+  .result span {
+    color: #d6336c;
+    font-weight: bold;
+  }
